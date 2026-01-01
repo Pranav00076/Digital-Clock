@@ -1,0 +1,40 @@
+body{background: linear-gradient(#000000, #131531);
+color: white;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+}
+div{
+    font-size: 200px;
+    font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+    transition: 0.7s all ease-in;
+    
+}
+h1{
+    font-family: "Rubik Puddles", system-ui;
+    font-weight: 400;
+    font-size: 50px;
+    transition: 0.7s all ease-in;
+}
+@media screen and (max-width:700px){
+    div{
+        font-size: 100px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:360px){
+    div{
+        font-size: 50px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
